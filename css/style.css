@@ -1,0 +1,145 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 1470px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    color: #000;
+    background-color: antiquewhite;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1310px;
+    width: 100%;
+}
+
+.title {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.header {
+    padding: 0 0 30px 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 40px;
+}
+
+.header-img {    
+    max-width: 350px;
+    max-height: 350px;
+}
+
+.header-text {
+    flex-basis: 50%;
+}
+
+.name {
+    margin-bottom: 30px;
+}
+
+.about-min, .adress, .ages {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.about-min {
+    gap: 0 50px;    
+}
+
+.icon {
+    margin-right: 20px;
+}
+
+.icon-age {
+    font-size: 24px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-left {
+    padding: 20px;
+    flex-basis: 40%;
+    background-color: bisque;
+}
+
+.section-title {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.contact {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;    
+}
+
+.icon-teleg, .icon-git {
+    width: 20px;
+    height: 20px;
+}
+
+.contact-link {
+    transition: color 0.3s;
+}
+
+.contact-link:hover {
+    color: rgb(36, 144, 211);
+}
+
+.skills-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main-right {
+    padding: 20px;
+}
+
+.education {
+    padding-bottom: 10px;
+}
+
+.education-descr, .experience-row {
+    padding-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+
+.experience {
+    margin-bottom: 60px;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+}
